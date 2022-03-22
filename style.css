@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    max-width: 1440px;
+    min-width: 1440px;
     min-height: 100vh;
     font-weight: normal;
     font-size: 16px;
@@ -444,7 +444,7 @@ body {
 
 /*footer*/ 
 .footer {
-    width: 1440px;
+    min-width: 1440px;
     box-sizing: border-box;
     background-color: #F6F6F6;
     position: relative;
@@ -457,7 +457,7 @@ body {
     position: absolute;
 }
 .footer-figure-top-left {
-    top: 0;
+    top: -40px;
     left: 185px;
 }
 .footer-figure-top-right {
